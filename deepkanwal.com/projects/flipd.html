@@ -1,0 +1,56 @@
+<h2> Overview </h2>
+<p>
+Flip'd is a 2D puzzle platformer built using C++ and the <a href="http://www.libsdl.org/download-1.2.php"> SDL multimedia library </a> in the summer of 2012. The objective of the game is to collect coins by building platforms and walls. The twist is that you must build the map while upside down and then flip it to collect the coins. Coins are randomly placed on the map. After collecting all the coins in level, a new level with a larger area begins. As the map area increases it becomes increasingly difficult to design the map in such a way that all the coins can be collected in one go.
+</p>
+
+<p class="center spaces"> <a href="../data/flipd.zip" > Download (Windows) </a>   |   <a href="https://github.com/ahalp/flip-d" > Source (Github) </a> </p>
+
+<h2> Screenshots </h2>
+<div class="media-wrapper media-responsive">
+
+	<figure>
+	<img src="../images/flipd/flipd_up_sml.png">
+	<figcaption> A player in the normal mode, they can <br> collect coins but cannot build blocks.</figcaption>
+	</figure>
+
+	<figure>
+	<img src="../images/flipd/flipd_down_sml.png">
+	<figcaption> A player in flip'd mode, they can build <br> the map but cannot collect coins. </figcaption> 
+	</figure>
+
+</div>
+
+<h2> Video </h2>
+<div class="media-wrapper">
+	<figure>
+	<iframe width="500" height="316" src="http://www.youtube.com/embed/83xBFyLlolw?rel=0" frameborder="0" allowfullscreen></iframe>
+	<figcaption>This video shows the basic mechanics of the game and a play-through of the first level.</figcaption>
+	</figure>
+</div>
+
+<h2> Controls </h2>
+<ul>
+	<li>w, a, d keys to move the character.</li>
+	<li>Left click to build a block. Right click to remove it.</li>
+	<li>Press space to flip the map.</li>
+	<li>Press esc to pause the game.</li>
+</ul>
+
+<h2> Rules </h2>
+<ul>
+	<li> Coins can only be collected when the map is not flipped. </li>
+	<li> The blocks can only be built when the map is flipped. In other words, you can not collect coins while building the map, or build the map while collecting coins. </li>
+	<li> Coins are reset each time the map is flipped. You must build the map in such a way that you can collect all the coins in one go. </li>
+</ul>
+
+<h2> State of Project </h2>
+<p>
+I built this game as a way to familiarize myself with SDL and the basics of game development. The game has a major issue where the jump distance is dependent on the computer the game is run on. I didn't notice this issue until tried the game on a Windows 8 laptop. Most Windows 7 computers should run the game fine.  I haven't worked on this game since I finished it (summer 2012), and don't plan to revisit it.
+</p>
+
+<h2> Tutorials </h2>
+<p> Here are some of the most helpful resources I used on this project: </p>
+<ul>
+	<li> <a href="http://www.aaroncox.net/tutorials/2dtutorials/index.html"> Aaron's Tutorials </a> : A fantastic resource for setting up SDL. </li>
+	<li> <a href="http://lazyfoo.net/SDL_tutorials/index.php"> Lazy Foo' Productions </a> : A series of tutorials from beginning SDL to advanced techniques. </li>
+</ul>
